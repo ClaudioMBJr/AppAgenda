@@ -9,12 +9,6 @@ public class Aluno implements Serializable {
     private String email;
 
 
-    public Aluno(String nome, String tel, String email) {
-        this.nome = nome;
-        this.tel = tel;
-        this.email = email;
-    }
-
     public Aluno() {
     }
 
